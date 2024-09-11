@@ -1,0 +1,10 @@
+#map-container {
+  height: 100vh; /* Makes sure it takes the full viewport height */
+  width: 100%; /* Makes sure it takes the full width of the container */
+  overflow: hidden; /* Prevents overflow if the container exceeds its bounds */
+}
+
+#map {
+  height: 100%; /* Ensures the map takes up the full height of its parent container */
+  width: 100%; /* Ensures the map takes up the full width of its parent container */
+}
